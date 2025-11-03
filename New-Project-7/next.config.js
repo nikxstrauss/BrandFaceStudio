@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'dist',
-  trailingSlash: true,
-  allowedDevOrigins: ["*.preview.same-app.com"],
+  output: 'export',                 // neue Art des static exports (statt next export)
+  distDir: 'dist',                  // statt .next → wird dist generiert
+  trailingSlash: true,             // URLs enden auf /
+  allowedDevOrigins: ["*.preview.same-app.com"], // Preview-Domain erlauben (wird nur lokal genutzt)
+
   images: {
-    unoptimized: true,
+    unoptimized: true,             // nötig für static export, da sonst Image Optimization nicht funktioniert
     domains: [
       "source.unsplash.com",
       "images.unsplash.com",
