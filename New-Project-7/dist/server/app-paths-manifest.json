@@ -1,1 +1,7 @@
-{}
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/erstgespraech/page": "app/erstgespraech/page.js",
+  "/brand-face/page": "app/brand-face/page.js",
+  "/page": "app/page.js"
+}
