@@ -10,7 +10,7 @@ const nextConfig = {
       "ext.same-assets.com",
       "ugc.same-assets.com",
       "i.ytimg.com",
-      "cdn-cf-east.streamable.com",
+      "cdn-cf-east.streamable.com"
     ],
   },
 };
